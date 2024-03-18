@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>else if</title>
+</head>
+<body>
+    <!-- Imagine you're making a decision in your daily life, like whether to go outside or stay indoors based on the weather. You use a simple thought process to decide:
+
+    IF the weather is sunny:
+
+    THEN you decide to go outside and enjoy the sunshine.
+    ELSE (if it's not sunny):
+
+    You check if it's raining:
+    IF it's raining:
+    THEN you decide to stay indoors to avoid getting wet.
+    ELSE (if it's not raining):
+    THEN you decide to go outside for a walk or do other outdoor activities.
+    In this analogy:
+
+    The "IF" part represents a condition you're checking, like whether the weather is sunny.
+    The "ELSE" part represents an alternative action to take if the condition is not met.
+    Inside the "ELSE" part, there can be additional conditions to check, like whether it's raining. -->
+
+    <!-- Quick expample of if else statement -->
+
+    <script language="javascript" type="text/javascript">
+
+        const marks1 = parseInt(prompt("Enter marks1, Enter"));
+        const marks2 = parseInt(prompt("Enter marks2, Enter"));
+        const marks3 = parseInt(prompt("Enter marks3, Enter"));
+
+        const total = marks1 + marks2 + marks3;
+        const percent = total * 100 / 150;
+        alert(percent);
+
+        if (percent >= 80){
+            alert("Grade A")
+        } 
+        else if(percent >= 60){
+            alert("Grade B")
+        }
+        else if (percent => 50){
+            alert("Grade C")
+        }
+        else{
+            alert("Grade F")
+        } 
+    </script>
+</body>
+</html>
